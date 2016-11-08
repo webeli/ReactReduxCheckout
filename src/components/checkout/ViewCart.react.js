@@ -8,7 +8,7 @@ import IMAGECLOSE from '../../assets/close1.png';
 class ViewCart extends Component {
 
     updateCart(value, key) {
-        if (Number(value) === 0) {
+        if (value === '0' || value === '-1') {
             this.props.removeProduct(key);
         } else {
             this.props.updateProdAmount(value, key);
