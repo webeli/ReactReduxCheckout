@@ -1,6 +1,4 @@
-### ReactReduxCar
-
-### Running on local machine
+#### Running on local machine
 
 ```
 git clone https://github.com/earthquaker/ReactReduxCheckout.git
@@ -8,13 +6,13 @@ npm install
 npm start
 ```
 
-### Running tests
+#### Running tests
 
 ```
 npm run test
 ```
 
-### Running production build
+#### Running production build
 
 ```
 npm run build
