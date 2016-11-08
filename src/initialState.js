@@ -21,13 +21,13 @@ export default {
         }
     },
     options: {
-      delivery: {
-        text: null,
-        price: null
-      },
-      payment: {
-        text: null,
-        price: null
-      }
+        delivery: {
+            text: null,
+            price: null
+        },
+        payment: {
+            text: null,
+            price: null
+        }
     }
 };

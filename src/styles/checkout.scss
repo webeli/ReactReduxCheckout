@@ -1,47 +1,60 @@
 #checkout-container {
   .panel-default {
     .panel-heading {
-      background:#FFF;
-      background-image:none;
-      font-weight:bold;
+      background: #FFF;
+      background-image: none;
+      font-weight: bold;
     }
   }
   .form-horizontal .control-label {
-    text-align:left;
-    font-weight:normal;
+    text-align: left;
+    font-weight: normal;
   }
   img.well {
-    background-image:none;
-    background-color:#FFF;
-    box-shadow:3px 3px 5px #eaeaea;
+    background-image: none;
+    background-color: #FFF;
+    box-shadow: 3px 3px 5px #eaeaea;
   }
-  .product-title {
-    font-weight:bold;
-  }
-  .product-description {
-    color:#AAA;
-    font-size:13px;
-  }
-  .priceTotalProd {
-    width:60px;
-  }
-  .priceInfo {
-    text-align:right;
-    margin:0;
-    .priceTotal {
-      font-size:22px;
-      font-weight:bold;
+  .cartDescription {
+    img {
+      float: left;
+      padding: 5px 10px;
     }
   }
+  .product-title {
+    font-weight: bold;
+  }
+  .product-description {
+    color: #AAA;
+    font-size: 13px;
+  }
+  .priceTotalProd {
+    width: 60px;
+  }
+  .priceInfo {
+    text-align: right;
+    margin: 0;
+    .priceTotal {
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+  .paymentImages {
+    margin-left: 10px;
+    height: 25px;
+  }
+  .closeImage {
+    cursor: pointer;
+  }
   .amount {
-    width:56px;
-    margin-right:5px;
+    width: 56px;
+    margin-right: 5px;
   }
   .btn-black {
-    background-color:#000;
-    background-image:none;
-    color:#FFF;
-    text-shadow:none;
-    border-radius:0;
+    background-color: #000;
+    background-image: none;
+    color: #FFF;
+    text-shadow: none;
+    border-radius: 0;
   }
 }
